@@ -22,15 +22,15 @@
 <body>
 <main>
   <h1>Delivery Note 私隱政策</h1>
-  <p class="muted">生效日期：2026 年 11 月 18 日</p>
+  <p class="muted">生效日期：2026 年 11 月 18 日（同日更新：只要求一項 Google 權限）</p>
 
   <h2>1. 適用範圍</h2>
   <p>本政策適用於「Delivery Note」（送貨單記錄系統），一個只供本公司內部同事使用的 Windows 桌面程式。</p>
 
   <h2>2. 本程式存取的 Google 資料</h2>
   <ul>
-    <li><b>電郵地址</b>（<code>openid</code>、<code>email</code>）：只用於在程式內顯示目前登入的帳戶。</li>
-    <li><b>由本程式建立的 Google 雲端硬碟檔案及試算表</b>（<code>drive.file</code>）：用於建立資料夾、上載送貨單圖片，以及在試算表新增記錄。本程式看不到使用者雲端硬碟內的其他檔案。</li>
+    <li><b>由本程式建立的 Google 雲端硬碟檔案及試算表</b>（<code>drive.file</code>，本程式唯一要求的權限）：用於建立資料夾、上載送貨單圖片，以及在試算表新增記錄。本程式看不到使用者雲端硬碟內的其他檔案。</li>
+    <li><b>帳戶電郵地址</b>：透過上述權限讀取雲端硬碟帳戶資料中的電郵地址，只用於在程式內顯示目前登入的帳戶。</li>
   </ul>
 
   <h2>3. 資料的用途</h2>
@@ -62,7 +62,7 @@
   <h1 style="font-size:20px">Privacy Policy (English)</h1>
   <p class="muted">Effective date: 18 November 2026</p>
   <p>This policy applies to "Delivery Note", an internal Windows desktop tool used only by our own staff.</p>
-  <p><b>Data accessed.</b> The app requests <code>openid</code> and <code>email</code> only to show which account is signed in, and <code>drive.file</code> to create its own folder, upload delivery-note images and add rows to the spreadsheet it creates. It cannot see any other files in the user's Google Drive.</p>
+  <p><b>Data accessed.</b> The app requests only the <code>drive.file</code> scope, which it uses to create its own folder, upload delivery-note images and add rows to the spreadsheet it creates. It cannot see any other files in the user's Google Drive. Through the same scope it reads the signed-in account's email address from Google Drive, only to show which account is signed in.</p>
   <p><b>Use.</b> The data is used only to record delivery notes in the user's own Google Sheet and Google Drive. It is not used for advertising and is not used to train any AI model.</p>
   <p><b>Storage and sharing.</b> Data stays in the user's own Google account and on the user's own computer. Authorization tokens are stored encrypted on the user's computer by the operating system. The app has no server of its own and does not collect, sell or share any data with third parties.</p>
   <p><b>Revoking access.</b> Users can sign out in the app (Settings › Google) or remove the app at <a href="https://myaccount.google.com/permissions" rel="noopener">Google Account › Third-party apps</a> at any time, and may delete the files the app created.</p>
